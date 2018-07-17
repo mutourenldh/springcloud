@@ -2,6 +2,7 @@ package com.haoge.cloud.controller;
 
 import java.util.List;
 
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
@@ -16,7 +17,7 @@ import com.haoge.cloud.service.DeptClientService;
  */
 @RestController
 public class DeptController_Consumer {
-//		@Autowired
+	@Autowired
 	private DeptClientService service;
 	
 	
